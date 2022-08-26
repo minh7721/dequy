@@ -1,0 +1,21 @@
+{
+  "name": "dequy/dequy",
+  "description": "Test de quy vva design pattern",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "tts",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
